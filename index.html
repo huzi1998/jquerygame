@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>JQUERY GAME</title>
+		<meta charset="UTF-8" />
+		<link rel="stylesheet" type="text/css" href="codes/styles.css" /> 
+       <!-- <link href="codes/jquery-ui.css" rel="stylesheet" type="text/css"/>-->
+		 <link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css" rel="stylesheet" type="text/css"/>
+		<script src="codes/jquery.min.js"></script>
+		<script src="codes/jquery-ui-1.9.0.custom.js"></script>
+		<script src="codes/game.js"></script>
+		<script>			
+			
+		</script>
+		<style>
+
+		</style>
+	</head>
+	<body>
+        
+<span id="pere" class="main">
+	<body style="background-color:black;">
+
+
+	<span id="source" class="source">
+
+        <h2>Source:</h2>
+    
+        <div style="margin-top: 5%;margin-bottom: 5%;">
+            <span  id="elmt1"  data-num="1"  style="background-image:url(images/apple.jpg) ; width:200px;height:200px;display:block; cursor: move;"    >
+            </span>
+        </div>
+         
+        
+        <div style="margin-top: 5%;margin-bottom: 5%;">
+            <span id="elmt2"  data-num="2"  style="background-image:url(images/banana.jpg) ; width:200px;height:200px; display:block; cursor: move;"  >
+            </span>
+        </div>
+       
+        
+        <div style="margin-top: 5%;margin-bottom: 5%;">
+            <span id="elmt3"  data-num="3"  style="background-image:url(images/strawberry.jpg) ; width:200px;height:200px;display:block; cursor: move; "  >
+            </span>
+        </div>
+       
+        
+        <div style="margin-top: 5%;margin-bottom: 5%;">
+            <span id="elmt4"  data-num="4"  style="background-image:url(images/watermelon.jpg); width:200px;height:200px; display:block; cursor: move;  "  >
+            </span> 
+        </div>
+  
+        
+        <span>
+        </span>
+        
+        <span>
+        </span>
+    </span>
+
+  
+     
+
+
+   
+	<span  id="destination" class="destination">
+     
+        <h2>Target:</h2>
+     
+     <span  id="dest1"  data-num="2"   style="background-image:url(images/banana2.jpg) ; width:200px;height:200px; display:block;    "></span>
+     <span   class="text" style=" position:absolute; left:220px; top:100px;color:black;" >Banana</span>
+     
+        
+      <span  id="dest2"  data-num="3"   style="background-image:url(images/strawberry2.jpg) ; width:200px;height:200px; display:block;   " ></span>
+      <span   class="text" style=" position:absolute; left:220px; top:270px;color:black;" >Strawberry</span>
+     
+      <span  id="dest3"  data-num="1"   style="background-image:url(images/apple2.jpg)  ; width:200px;height:200px; display:block;    " ></span>
+      <span   class="text" style=" position:absolute; left:220px; top:450px;color:black;" >Apple</span>
+      
+      <span  id="dest4"  data-num="4"   style="background-image:url(images/watermelon2.jpg) ; width:200px;height:200px; display:block;  " ></span>
+      <span   class="text" style=" position:absolute; left:220px; top:680px;color:black;" >Watermelon</span>
+     
+     
+     
+    </span>
+
+
+        
+
+</span>
+
+<div >
+    <span id="resultat" class="resultat">
+        <p><label class="result"   id="resultat"  ></label>     </p>
+       </span>
+</div>
+
+<div class="image"><p style="margin-left: 30%;"><img src="images/drag.png" alt="" width="200" height="200" ></p></div>
+
+
+
+
+<div id="dialog"     style="display:none" title="Congrat" >
+    <p>You Win</p>
+</div>
+
+        
+        
+	</body>
+</html>
